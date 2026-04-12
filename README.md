@@ -5,3 +5,9 @@ Quiz, który ma za zadanie dostarczyć trochę zabawy oraz informację na temat 
 - prosy quiz
 - postarać się dodać jak najwięcej elementów widzianych na różnych stronach internetowych
 - dodać też quiz prawda/fałsz
+
+## Biblioteki, których będę używać:
+- raczej brak
+
+## Przydatne odniesienia:
+- eko-kalkulator
