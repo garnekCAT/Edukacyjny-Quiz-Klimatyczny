@@ -20,7 +20,18 @@ pip install flask
 ### Aby dodawać pytania
 1. Znajdź podstronę, w której chcesz dodać pytanie
 2. Zlokalizuj to pytanie
-3. Skopiuj kod odpowiedzialny za pytanie - screen
+3. Skopiuj kod odpowiedzialny za pytanie (patrz poniżej)
+```html
+      <li class="list__item">
+        <form action="/pyt11" method="POST">
+            <input type="hidden" name="score" value="{{ score }}">
+            <button type="submit" class="list__item"><span> TWOJE PYTANIE TU </span></button>
+        </form>
+      </li>
+```
+- Mała uwaga - jak chcesz, by to pytanie dodawało punkty to musisz w ```value="{{ score }}``` zmienić ```{{ score }}``` na ```{{ score | int + 10}}```. To doda graczowi 10 punktów.
+
+
 
 
 
