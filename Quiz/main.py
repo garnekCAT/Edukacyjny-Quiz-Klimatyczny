@@ -2,12 +2,10 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
-pkt = 0
-# Pierwsza strona
 @app.route('/', methods=["GET",'POST'])
 def index():
     return render_template('index.html')
-# Druga strona
+
 @app.route('/pyt1', methods=['POST'])
 def lights2():
     aktualny_wynik = request.form.get('score')
