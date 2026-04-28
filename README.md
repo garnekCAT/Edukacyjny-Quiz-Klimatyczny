@@ -1,7 +1,5 @@
 # Ten projek jest edukacyjnym quizem klimatycznym, który ma być też szablonem. Zapraszam do dokumentacji!
 
-## Spis treści
-
 ## O projekcie
 Projek ten został stworzony jako projekt kmońcowy na kursie Kodland i nazewnictwo niektórych elementów może być sprzeczne z ich funkcją, niektóre części kodu też mogą być zbędne do normalnej operacji kodu.
 Jest tak dlatego, że ten projekt bazuje na innym projekcie z odmienną funkcją od tego i jest jego bardzo mocno zmodyfikowaną wersją tamtego projektu.
