@@ -56,7 +56,14 @@ def NAZWA():
 
 ## Galeria
 
-
+**Rozpoczęcie Quizu**
+![Start](Screen/index.png)
+**Przykładowe pytanie**
+![Pytanie](Screen/pyt.png)
+**Zdobyłem 50 punktów!**
+![Wyniki](Screen/wynik1.png)
+**Klucz odpowiedzi**
+![Klucz](Screen/wyniki2.png)
 
 
 
