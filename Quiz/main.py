@@ -58,7 +58,7 @@ def lights11():
     aktualny_wynik = request.form.get('score')
     return render_template('lights10.html', score=aktualny_wynik)
 
-@app.route('/pyt11', methods=['POST'])
+@app.route('/wynik', methods=['POST'])
 def lights12():
     aktualny_wynik = request.form.get('score')
     return render_template('wynik.html', score=aktualny_wynik)
