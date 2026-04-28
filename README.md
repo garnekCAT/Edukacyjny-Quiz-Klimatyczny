@@ -29,7 +29,10 @@ pip install flask
         </form>
       </li>
 ```
-- Mała uwaga - jak chcesz, by to pytanie dodawało punkty to musisz w ```value="{{ score }}``` zmienić ```{{ score }}``` na ```{{ score | int + 10}}```. To doda graczowi 10 punktów.
+- Mała uwaga - jak chcesz, by to pytanie dodawało punkty, to musisz w ```value="{{ score }}``` zmienić ```{{ score }}``` na ```{{ score | int + 10}}```. To doda graczowi 10 punktów.
+### Aby zmienić tło
+- Mała uwaga - po zmianie tła w ```style.css``` tło nie będzie takie same jak w ```style1.css``` i ```sytle2.css```, ale wszystko jest tam w niemal identycznych miejscach.
+
 
 
 
