@@ -52,6 +52,10 @@ def NAZWA():
    - NAZWA na cokolwiek (nie jest ważne, byle się nie powtarzało między innymi takimi skrawkami)
    - NAZWA PLIKU na nazwę pliku, zależy jak nazwałeś swój plik
 8. Pamiętaj, że na końcu trzeba zmienić punktację. Zmień ```name="score" value="{{ score }}"``` tak, by tylko nad prawidłową odpowiedzią widniało ```name="score" value="{{ score | int + LICZBA PUNKTÓW}}"```
+9. Radzę też odświeżyć klucz odpowiedzi, bądź się go pozbyć.
+
+## Galeria
+
 
 
 
