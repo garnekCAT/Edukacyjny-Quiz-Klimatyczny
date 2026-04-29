@@ -65,6 +65,8 @@ def NAZWA():
 **Klucz odpowiedzi**
 ![Klucz](Screen/wyniki2.png)
 
+- by garnekCAT
+
 
 
 
