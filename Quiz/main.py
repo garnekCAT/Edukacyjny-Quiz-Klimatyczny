@@ -8,7 +8,7 @@ def index():
 
 @app.route('/pyt1', methods=['POST'])
 def lights2():
-    aktualny_wynik = request.form.get('score')
+    aktualny_wynik = 0
     return render_template('lights1.html', score=aktualny_wynik)
 
 @app.route('/pyt2', methods=['POST'])
